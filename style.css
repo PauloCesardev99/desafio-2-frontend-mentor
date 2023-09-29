@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+p{
+    font-size: 1em;
+    line-height: 25px;
+
+}
+
+h2{
+    font-size: 3em;
+}
+
+h1, p, h3{
+   color:  hsl(228, 12%, 48%);
+}
+
+
+
+
+.conteudo-principal{
+    margin: 30px 20px 0px 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* a imagem do perfume 1 conteudo */
+
+.conteudo-principal .imagem-perfume img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* todo o conteudo da descriscao */
+
+.descricao{
+    padding: 30px;
+}
+
+.preco{
+    display: flex;
+}
+
+.preco h3:first-child{
+    color:  hsl(158, 36%, 37%);
+}
+.preco h3:last-child{
+    align-self: center;
+    margin-left: 10px;
+    text-decoration: line-through;
+    font-size: 1em;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(158, 36%, 37%);
+    padding: 20px 10px 20px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.botao, .preco, .descricao{
+    margin-top: 30px;
+}
+
+span{
+    margin-left: 10px;
+}
