@@ -13,7 +13,7 @@
 
     .conteudo-principal{
         display: flex;
-        height: 600px;
+        height: 500px;
     }
 
     .imagem-perfume, .descricao{
@@ -21,6 +21,8 @@
       
         
     }
+
+   
     .conteudo-principal .imagem-perfume img{
         border-radius: 10px 0px 0px 10px;
     }
@@ -28,27 +30,41 @@
     .descricao{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         background-color: white;
         margin-top: 0px;
         border-radius: 0px 10px 10px 0px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    
+
+    h2{
+        font-size: 2.6em;
+        line-height: 40px;
     }
 
     .imagem-perfume img{
-        height: 600px;
+        height: 500px;
         
     }
 
 
     .preco h3:first-child{
-        font-size: 2em;
+        font-size: 3em;
+    }
+
+    p{
+        
+    font-size: 1.2em;
     }
 
     
 
-    p{
-        font-size: 1.3em;
-    }
+
+    
+
+    
     
     
     
